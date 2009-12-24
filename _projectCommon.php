@@ -10,7 +10,7 @@
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 	# these are optional
   $Nav->addNavSeparator("JGit",   "/jgit/");
-  $Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Source", "http://egit.eclipse.org/egit/parallelip-jgit.git", "_self", 1);
+  $Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Source", "http://egit.eclipse.org/jgit.git", "_self", 1);
   $Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Contributor Guide", "http://wiki.eclipse.org/EGit/Contributor_Guide", "_self", 1);
 
 	$Nav->addNavSeparator("Users", "/jgit/", "_self", 1);
