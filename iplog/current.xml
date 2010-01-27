@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <iplog:iplog name="technology.jgit" xmlns:iplog="http://www.eclipse.org/projects/xml/iplog">
-  <iplog:project id="technology.jgit" name="JGit" version="ebec2da4dc49f860f3fcc141e203a7f739fe8f6e"/>
+  <iplog:project id="technology.jgit" name="JGit" version="0.7.0"/>
+  <iplog:meta key="git-commit" value="6f7c83a77512bb9c10fde95004f2ec38a2a1fb69"/>
   <iplog:license id="Eclipse Distribution License v1.0"/>
 
   <iplog:cq description="args4j Version: 2.0.12" id="3454" license="BSD License" state="approved" use="unmodified binary"/>
