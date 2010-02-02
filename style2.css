@@ -1,0 +1,159 @@
+#novaContent {
+	background: url("images/backgroundMain.png") no-repeat white;
+	padding-top: 170px;
+}
+
+#introText p.left {
+	width: 48%;
+	float: left;
+}
+
+#border {
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(230,228,242);
+}
+
+#border p.top {
+	background-color: rgb(230,228,242);
+	border-bottom: 2px solid #FFF;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+}
+
+#introText p.right {
+	width: 48%;
+	float: right;
+}
+
+#feature_axf {
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+}
+
+#feature_agf {
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+}
+
+#feature_escape {
+	float: left;
+	width: 30%;
+	margin-right: 3%
+}
+
+#feature_generation {
+	float: left;
+	width: 30%;
+}
+
+#feature_experience {
+	clear: both;
+	float: left;
+	width: 63%;
+	margin-right: 3%;	
+}
+
+#feature_more {
+	float: left;
+	width: 30%;
+}
+	
+#bigbuttons {
+	position: relative;
+	left: 420px;
+	top: -170px;
+}
+#bigbuttons h3{
+	visibility: hidden;
+}
+
+#bigbuttons a {
+}
+
+#bigbuttons ul li {
+   display:block;
+   list-style-type:none;
+   background-color: red;
+   padding: 0;
+   margin: 0;
+}
+
+#bigbuttons a:hover {
+	text-decoration: none;
+}
+
+#bigbuttons a {
+   display: block;
+   height:77px; width:250px;
+   padding: 0;
+   margin: 20px;
+   text-indent: -9000px;
+   position: absolute;
+}
+
+#buttonDownload {
+   background:transparent url("images/buttonDownload.png") no-repeat 0 0;
+   top: 0px;
+   left: 0px;
+}
+
+#buttonDownload:hover {
+   background:transparent url("images/buttonDownload_sel.png") no-repeat 0 0;
+}
+
+   
+#buttonDocumentation {
+   background:transparent url("images/buttonDocumentation.png") no-repeat 0 0;
+   top: 87px;
+   left: 0px;
+}
+
+#buttonDocumentation:hover {
+   background:transparent url("images/buttonDocumentation_sel.png") no-repeat 0 0;
+}
+
+#buttonSupport {
+   background:transparent url("images/buttonSupport.png") no-repeat 0 0;
+   top: 0px;
+   left: 280px;
+}
+
+#buttonSupport:hover {
+   background:transparent url("images/buttonSupport_sel.png") no-repeat 0 0;
+}
+
+#buttonInvolved {
+   background:transparent url("images/buttonInvolved.png") no-repeat 0 0;
+   top: 87px;
+   left: 280px;
+}
+
+#buttonInvolved:hover {
+   background:transparent url("images/buttonInvolved_sel.png") no-repeat 0 0;
+}
+
+#bigbuttons a * {
+	visibility: hidden;
+}
+
+
+/*
+#screencast {
+	margin: 20px;
+	position: relative;
+	left: 50px;
+	width: 480px; 
+	background-color: black; 
+	clear: both; 
+	height: 340px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+*/

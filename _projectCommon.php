@@ -4,21 +4,32 @@
 	# See the Committer Tools "How Do I" for list of themes
 	# https://dev.eclipse.org/committers/
 	# Optional: defaults to system theme 
-	$theme = "";
+	$theme = "Nova";
+	
 
 	# Define your project-wide Nav bars here.
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 	# these are optional
-  $Nav->addNavSeparator("JGit",   "/jgit/");
-  $Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Source", "http://egit.eclipse.org/jgit.git", "_self", 1);
-  $Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Contributor Guide", "http://wiki.eclipse.org/EGit/Contributor_Guide", "_self", 1);
+	$Nav->setLinkList(array());
+	$Nav->addNavSeparator("JGit", 	"/jgit");
+	$Nav->addCustomNav("Download", "/jgit/download", "_self", 3);
+	$Nav->addCustomNav("Documentation", "/jgit/documentation", "_blank", 3);
+	$Nav->addCustomNav("Support", "/jgit/support", "_blank", 3);
+	$Nav->addCustomNav("Getting Involved", "/jgit/developers", "_blank", 3);
+	
+	$pageKeywords	= "eclipse, egit, git, vcs";
+	$pageAuthor		= "Chris Aniszczyk";
+	$pageTitle 		= "JGit";
 
-	$Nav->addNavSeparator("Users", "/jgit/", "_self", 1);
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Downloads", "downloads.php", "_self", 1);
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Installation", "install.php", "_self", 1);
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;FAQ (wiki)", "http://wiki.eclipse.org/index.php/EGit/FAQ", "_self", 1);
-
-  $Nav->addNavSeparator("About",   "/jgit/");
-  $Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;About This Project", "/projects/project_summary.php?projectid=technology.jgit", "_self", 1);
-
+	$Menu->setMenuItemList(array());
+	$Menu->addMenuItem("Home", "/jgit", "_self");
+	$Menu->addMenuItem("Download", "/jgit/download", "_self");
+	$Menu->addMenuItem("Documentation", "/jgit/documentation", "_self");
+	$Menu->addMenuItem("Support", "/jgit/support", "_self");
+	$Menu->addMenuItem("Developers", "/jgit/developers", "_self");
+	
+	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="style.css"/>' . "\n\t");
+	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="style2.css"/>' . "\n\t");
+	
+	$App->Promotion = TRUE;
 ?>

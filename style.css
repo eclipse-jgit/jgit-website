@@ -1,0 +1,31 @@
+#novaContent {
+	background: url("images/backgroundMain.png") no-repeat;
+	padding-top: 210px;
+}
+
+#midcolumn {
+	width: 600px;
+	padding: 0 10px 10px 10px;
+}
+
+#rightcolumn {
+	width: 300px;
+}
+
+
+h3 {
+	clear: both;
+}
+
+h7 {
+	font-weight: bold;
+	padding: 5px;
+}
+
+a strong {
+	text-decoration: underline;
+}
+
+#rightcolumn ul {
+	margin-left: 10px;
+}
