@@ -13,9 +13,9 @@
 	$Nav->setLinkList(array());
 	$Nav->addNavSeparator("JGit", 	"/jgit/");
 	$Nav->addCustomNav("Download", "/jgit/download/", "_self", 3);
-	$Nav->addCustomNav("Documentation", "/jgit/documentation/", "_blank", 3);
-	$Nav->addCustomNav("Support", "/jgit/support/", "_blank", 3);
-	$Nav->addCustomNav("Getting Involved", "/jgit/developers/", "_blank", 3);
+	$Nav->addCustomNav("Documentation", "/jgit/documentation/", "_self", 3);
+	$Nav->addCustomNav("Support", "/jgit/support/", "_self", 3);
+	$Nav->addCustomNav("Getting Involved", "/jgit/developers/", "_self", 3);
 	
 	$pageKeywords	= "eclipse, egit, jgit, git, vcs";
 	$pageAuthor		= "Chris Aniszczyk";
