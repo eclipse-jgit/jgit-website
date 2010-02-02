@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <iplog:iplog name="technology.jgit" xmlns:iplog="http://www.eclipse.org/projects/xml/iplog">
   <iplog:project id="technology.jgit" name="JGit" version="0.7.0"/>
-  <iplog:meta key="git-commit" value="6f7c83a77512bb9c10fde95004f2ec38a2a1fb69"/>
+  <iplog:meta key="git-commit" value="3eee6061901940f8a8c1f771e649b4e6676760a9"/>
   <iplog:license id="Eclipse Distribution License v1.0"/>
 
   <iplog:cq description="args4j Version: 2.0.12" id="3454" license="BSD License" state="approved" use="unmodified binary"/>
@@ -29,6 +29,7 @@
   <iplog:contributor id="constantine.plotnikov@gmail.com" name="Constantine Plotnikov">
     <iplog:bug created="2009-10-08 09:12:08" id="f892dbf9760e3a779b4f68ec12d3b71c2231ed57" size="+10 lines" summary="Make the default encoding when reading commits UTF-8" type="A"/>
     <iplog:bug bug-id="295077" created="2009-11-13 06:30:08" id="68088d6f0766b48673e7c5cfd85f63c7947af6e0" size="+3 lines" summary="Added -crfl attribute for DiffFormatterReflowTest test data" type="A"/>
+    <iplog:bug bug-id="300397" created="2010-01-21 10:06:54" id="e2563444287e64f0007793e1282f0dd386c4395c" size="+259 lines" summary="Added caching for loose object lookup during pack indexing" type="A"/>
   </iplog:contributor>
 
   <iplog:contributor id="igor@ifedorenko.com" name="Igor Fedorenko">
