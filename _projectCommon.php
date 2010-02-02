@@ -17,7 +17,7 @@
 	$Nav->addCustomNav("Support", "/jgit/support", "_blank", 3);
 	$Nav->addCustomNav("Getting Involved", "/jgit/developers", "_blank", 3);
 	
-	$pageKeywords	= "eclipse, egit, git, vcs";
+	$pageKeywords	= "eclipse, egit, jgit, git, vcs";
 	$pageAuthor		= "Chris Aniszczyk";
 	$pageTitle 		= "JGit";
 
