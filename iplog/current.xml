@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <iplog:iplog name="technology.jgit" xmlns:iplog="http://www.eclipse.org/projects/xml/iplog">
   <iplog:project id="technology.jgit" name="JGit" version="0.7.0"/>
-  <iplog:meta key="git-commit" value="3eee6061901940f8a8c1f771e649b4e6676760a9"/>
+  <iplog:meta key="git-commit" value="48af6a5f539f66e6880a862f046160e5d4ee9af4"/>
   <iplog:license id="Eclipse Distribution License v1.0"/>
 
+  <iplog:cq description="JGit" id="3448" license="Eclipse Distribution License" state="approved"/>
   <iplog:cq description="args4j Version: 2.0.12" id="3454" license="BSD License" state="approved" use="unmodified binary"/>
   <iplog:cq description="Java Servlet API Version: 2.5 (PB CQ2075)" id="3565" license="Apache License, 2.0" state="approved" use="unmodified binary"/>
   <iplog:cq description="JSch Version: 0.1.41 (PB CQ3040)" id="3654" license="New BSD license" state="approved" use="unmodified binary"/>
   <iplog:cq description="Junit Version: 3.8.2 (PB CQ2206)" id="3655" license="Common Public License 1.0" state="approved" use="unmodified binary"/>
-  <iplog:cq description="JGit" id="3448" license="EDL or BSD (TBD)" state="awaiting_analysis"/>
 
   <iplog:committer active="true" firstName="Chris" hasCommits="true" id="zx" lastName="Aniszczyk"/>
   <iplog:committer active="true" firstName="Christian" hasCommits="true" id="christian.halstrick" lastName="Halstrick"/>
@@ -19,53 +19,56 @@
   <iplog:committer active="true" firstName="Stefan" hasCommits="false" id="stefanlay" lastName="Lay"/>
 
   <iplog:contributor id="alex.blewitt@gmail.com" name="Alex Blewitt">
-    <iplog:bug created="2009-10-19 01:48:00" id="f8f3b43b63d76c06050d8f521684450f57251457" size="+652 lines" summary="Remove trailing whitespace at end of line" type="A"/>
+    <iplog:bug created="2009-10-19 01:48:00" id="4d91645e890527efbe04ffaee12b4aa3637733c4" size="+652 lines" summary="Remove trailing whitespace at end of line" type="A"/>
   </iplog:contributor>
 
   <iplog:contributor id="zx@eclipsesource.com" name="Chris Aniszczyk">
-    <iplog:bug bug-id="291108" created="2009-10-01 14:12:50" id="144b16d141794ae595184e050d3e3fb6bba5a29a" size="+17 lines" summary="Cleanup MANIFEST.MF in JGit" type="A"/>
+    <iplog:bug bug-id="291108" created="2009-10-01 14:12:50" id="4cfc7baf9ee56a282232a243c1bcc5931aa9ea75" size="+17 lines" summary="Cleanup MANIFEST.MF in JGit" type="A"/>
   </iplog:contributor>
 
   <iplog:contributor id="constantine.plotnikov@gmail.com" name="Constantine Plotnikov">
-    <iplog:bug created="2009-10-08 09:12:08" id="f892dbf9760e3a779b4f68ec12d3b71c2231ed57" size="+10 lines" summary="Make the default encoding when reading commits UTF-8" type="A"/>
-    <iplog:bug bug-id="295077" created="2009-11-13 06:30:08" id="68088d6f0766b48673e7c5cfd85f63c7947af6e0" size="+3 lines" summary="Added -crfl attribute for DiffFormatterReflowTest test data" type="A"/>
-    <iplog:bug bug-id="300397" created="2010-01-21 10:06:54" id="e2563444287e64f0007793e1282f0dd386c4395c" size="+259 lines" summary="Added caching for loose object lookup during pack indexing" type="A"/>
+    <iplog:bug created="2009-10-08 09:12:08" id="982515cf10dfbdfb9b40cb3582dfc54e2855a79d" size="+10 lines" summary="Make the default encoding when reading commits UTF-8" type="A"/>
+    <iplog:bug bug-id="295077" created="2009-11-13 06:30:08" id="063e7206682b77327a1635516a169caa8f514864" size="+3 lines" summary="Added -crfl attribute for DiffFormatterReflowTest test data" type="A"/>
+    <iplog:bug bug-id="300397" created="2010-01-21 10:06:54" id="cc64794b245a094175d817bce6b581d4dddb47cf" size="+276 lines" summary="Added caching for loose object lookup during pack indexing" type="A"/>
   </iplog:contributor>
 
   <iplog:contributor id="igor@ifedorenko.com" name="Igor Fedorenko">
-    <iplog:bug created="2009-12-04 22:07:42" id="e51ebb1c824bfa721c8db2e7052f002356b5f81d" size="+101 lines" summary="Flipped jgit.core to manifest-first maven-3/tycho build" type="A"/>
-    <iplog:bug created="2009-12-18 16:06:38" id="38bdf217a2f8cfa841c05b052c59a860ae514a3a" size="+1 line" summary="Use Tycho version 0.6.0" type="A"/>
-    <iplog:bug created="2010-01-06 15:51:39" id="725835f5e703a004179e527f38eb446b9bb74451" size="+1 line" summary="Use build timestamp as OSGi version qualifier for SNAPSHOT builds" type="A"/>
-    <iplog:bug created="2010-01-06 18:18:44" id="6e1a270bbc3e256206139e3e2b6ae1346ef31830" size="+5 lines" summary="Explicitly release resources used by java.util.zip.Deflater" type="A"/>
+    <iplog:bug created="2009-12-04 22:07:42" id="96c7f75fade2bd36a0e7d9dbb2064de0ed452021" size="+110 lines" summary="Flipped jgit.core to manifest-first maven-3/tycho build" type="A"/>
+    <iplog:bug created="2009-12-18 16:06:38" id="53f3632f604d50e2f37b2fed9a1476bb2b55bd22" size="+1 line" summary="Use Tycho version 0.6.0" type="A"/>
+    <iplog:bug created="2010-01-06 15:51:39" id="b427e32c188ecdfed1b0eb75785cb387b13eae26" size="+1 line" summary="Use build timestamp as OSGi version qualifier for SNAPSHOT builds" type="A"/>
+    <iplog:bug created="2010-01-06 18:18:44" id="7085c0e4acb70b7d4a07e99d7a9bea3554d0fc62" size="+5 lines" summary="Explicitly release resources used by java.util.zip.Deflater" type="A"/>
   </iplog:contributor>
 
   <iplog:contributor id="johannes.schindelin@gmx.de" name="Johannes Schindelin">
-    <iplog:bug bug-id="291083" created="2009-09-03 03:46:31" id="09e05f86d4725e63d2393bdbfe161481e1bbceaa" size="+38 lines" summary="Add set to IntList" type="A"/>
-    <iplog:bug bug-id="291083" created="2009-09-03 03:46:41" id="b98588685e24c49d81ad7c40d676d66c9b5e7f76" size="+515 lines" summary="Add Myers' algorithm to generate diff scripts" type="A"/>
-    <iplog:bug bug-id="291083" created="2009-09-03 03:46:51" id="434a1ddad3db414d33b846faacd3f51b8fb40d60" size="+102 lines" summary="Add a test class for Myers' diff algorithm" type="A"/>
-    <iplog:bug bug-id="291083" created="2009-09-03 03:47:01" id="8e399e115c84f79a0b57e000bd9e31a6e8b75e89" size="+27 lines" summary="Prepare RawText for diff-index and diff-files" type="A"/>
-    <iplog:bug bug-id="291083" created="2009-09-03 03:47:08" id="9b52e3d14a72c81955aaab13169a90a8fbcdbba5" size="+135 lines" summary="Add the &quot;jgit diff&quot; command" type="A"/>
+    <iplog:bug bug-id="291083" created="2009-09-03 03:46:31" id="9c056fcace49f4c111cad8a49399a113fb083f30" size="+39 lines" summary="Add set to IntList" type="A"/>
+    <iplog:bug bug-id="291083" created="2009-09-03 03:46:41" id="d8a3b4eb310fd8f160c858ddb5c1160a29a14546" size="+469 lines" summary="Add Myers' algorithm to generate diff scripts" type="A"/>
+    <iplog:bug bug-id="291083" created="2009-09-03 03:46:51" id="1a03c864a6c82ed76ebfe9504d983f5741d75032" size="+109 lines" summary="Add a test class for Myers' diff algorithm" type="A"/>
+    <iplog:bug bug-id="291083" created="2009-09-03 03:47:01" id="e34865b88b02bb5937f8ac815fe065ebe8e9d47b" size="+27 lines" summary="Prepare RawText for diff-index and diff-files" type="A"/>
+    <iplog:bug bug-id="291083" created="2009-09-03 03:47:08" id="a3aa43ecb164d13679b9ee33fb8626c82dea7f8c" size="+142 lines" summary="Add the &quot;jgit diff&quot; command" type="A"/>
   </iplog:contributor>
 
   <iplog:contributor id="fonseca@diku.dk" name="Jonas Fonseca">
-    <iplog:bug created="2009-09-20 06:34:37" id="a0a0ce8e5d8231a98b00b9b431049034dcf59d2e" size="+13 lines" summary="Make it possible to clear a PlotCommitList" type="A"/>
+    <iplog:bug created="2009-09-20 06:34:37" id="36b0dcf6cbae6ba25a96bf2b2bd5251f7af8904d" size="+14 lines" summary="Make it possible to clear a PlotCommitList" type="A"/>
   </iplog:contributor>
 
   <iplog:contributor id="mn@mn.com.ua" name="Mykola Nikishov">
-    <iplog:bug created="2009-10-02 02:18:15" id="1212ac83f94656719e86572edeacc947d56578bd" size="+126 lines" summary="Add org.eclipse.jgit-feature" type="A"/>
-    <iplog:bug bug-id="291124" created="2009-10-09 11:57:59" id="06acce465ddfd57ecc6e7a4bbed84292a6639441" size="+1173 lines" summary="Move AWT UI code to new org.eclipse.jgit.ui bundle" type="A"/>
-    <iplog:bug bug-id="291133" created="2009-10-15 01:41:21" id="379be2db47ef5dfd8ed5d5dbb9dcd3eba15ea48c" size="+3 lines" summary="Add gitignore to constants" type="A"/>
-    <iplog:bug created="2009-11-25 12:37:02" id="5cfccc344be83b452202d58c083a2df3d3b579f4" size="+7 lines" summary="Replace a hard-coded default remote's name with a constant" type="A"/>
-    <iplog:bug created="2009-12-09 17:28:07" id="7d1f833c150f4a1557d3f3c411e7f8e6d79c5e5f" size="+2 lines" summary="Ignore target/ folder and compile.org.eclipse.jgit.xml" type="A"/>
-    <iplog:bug created="2009-12-17 15:03:51" id="cdbfe9bee21f2c4a44691b32480cfe1193c84746" size="+178 lines" summary="Method to get a 'humanish' name from a path" type="A"/>
+    <iplog:bug created="2009-10-02 02:18:15" id="956b12403d4ab732d6bc6d2f6194ed06f2665966" size="+126 lines" summary="Add org.eclipse.jgit-feature" type="A"/>
+    <iplog:bug bug-id="291124" created="2009-10-09 11:57:59" id="cf2edb65180b66bb191a7db1dfa24eeb5801d246" size="+1199 lines" summary="Move AWT UI code to new org.eclipse.jgit.ui bundle" type="A"/>
+    <iplog:bug bug-id="291133" created="2009-10-15 01:41:21" id="5208e50b4ecabf1e530d5a1f1270fd28741e44d2" size="+3 lines" summary="Add gitignore to constants" type="A"/>
+    <iplog:bug created="2009-11-25 12:37:02" id="7eef835ad50971bf6ecc3fcff2ebd9558757c28f" size="+8 lines" summary="Replace a hard-coded default remote's name with a constant" type="A"/>
+    <iplog:bug created="2009-12-09 17:28:07" id="f8f75f8a52a30cf2a7d793ba15cd74410ba64534" size="+2 lines" summary="Ignore target/ folder and compile.org.eclipse.jgit.xml" type="A"/>
+    <iplog:bug created="2009-12-17 15:03:51" id="21b6f3434ebc84f493405d890a3768d55375a721" size="+178 lines" summary="Method to get a 'humanish' name from a path" type="A"/>
   </iplog:contributor>
 
   <iplog:contributor id="nsallembien@google.com" name="Nico Sallembien">
-    <iplog:bug created="2009-12-22 11:02:24" id="5b232f673c14b788d80dee6ade0738a83266da3b" size="+2 lines" summary="Fix typo in ReceivePack.java" type="A"/>
+    <iplog:bug created="2009-12-22 11:02:24" id="a8817ed77f087bf9eec39c315f29f4537eb9b730" size="+2 lines" summary="Fix typo in ReceivePack.java" type="A"/>
+    <iplog:bug created="2010-02-09 09:53:53" id="e54d33b6873f0b392640f9200398861210ac9374" size="+129 lines" summary="Add a RefFilter interface to ReceivePack and UploadPack" type="A"/>
+    <iplog:bug created="2010-02-09 15:01:27" id="19126f70e9e5645278b38239c01d990c32d44af2" size="+121 lines" summary="Allow users of ReceivePack access to the objects being sent" type="A"/>
   </iplog:contributor>
 
   <iplog:contributor id="sasa.zivkov@sap.com" name="Sasa Zivkov">
-    <iplog:bug created="2009-09-29 07:03:40" id="4a3870f7a866db45ff7d9d8b5977264c48628db5" size="+24 lines" summary="Include description for missing bundle prereqs" type="A"/>
-    <iplog:bug created="2009-10-09 05:43:45" id="077815ff38e16cf3cb08d2183f675dd671c0a033" size="+0 lines" summary="Don't create .git/remotes folders on init" type="A"/>
+    <iplog:bug created="2009-09-29 07:03:40" id="96690904f53241e825a29be9558be319a0bbfba1" size="+26 lines" summary="Include description for missing bundle prereqs" type="A"/>
+    <iplog:bug created="2009-10-09 05:43:45" id="99ab22c474ffccbdd9081959b80f3b4bd1967c84" size="+0 lines" summary="Don't create .git/remotes folders on init" type="A"/>
+    <iplog:bug created="2010-03-11 06:19:34" id="2ae9a85045915a38af2c300aa1874304fd8ea17b" size="+1125 lines" summary="Provide NLS support in JGit." type="A"/>
   </iplog:contributor>
 </iplog:iplog>
