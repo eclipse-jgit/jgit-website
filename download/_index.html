@@ -1,12 +1,37 @@
-<h2>Installing</h2>
-<p>JGit can be installed in two main ways:</p>
+<h2>Direct Download</h2>
+<ul>
+<li><a href="http://download.eclipse.org/jgit/maven/org/eclipse/jgit/org.eclipse.jgit/0.7.1/org.eclipse.jgit-0.7.1.jar">org.eclipse.jgit.jar</a> (Raw API library)</li>
+<li><a href="http://download.eclipse.org/jgit/maven/org/eclipse/jgit/org.eclipse.jgit.pgm/0.7.1/org.eclipse.jgit.pgm-0.7.1.sh">jgit.sh</a> (Self-contained command line executable)</li>
+</ul>
+
+<h2>Maven Repository</h2>
+<p>JGit can be consumed in a Maven build:</p>
+<pre>
+  &lt;repositories&gt;
+    &lt;repository&gt;
+      &lt;id&gt;jgit-repository&lt;/id&gt;
+      &lt;url&gt;http://download.eclipse.org/jgit/maven&lt;/url&gt;
+    &lt;/repository&gt;
+  &lt;/repositories&gt;
+
+  &lt;dependencies&gt;
+    &lt;dependency&gt;
+      &lt;groupId&gt;org.eclipse.jgit&lt;/groupId&gt;
+      &lt;artifactId&gt;org.eclipse.jgit&lt;/artifactId&gt;
+      &lt;version&gt;0.7.1&lt;/version&gt;
+    &lt;/dependency&gt;
+  &lt;/dependencies&gt;
+</pre>
+
+<h2>P2 Installation</h2>
+<p>JGit can be installed from the <a href="http://www.eclipse.org/egit/">EGit</a> repository:</p>
 <ul>
 <li>Main Site: <a href="http://download.eclipse.org/egit/updates">http://download.eclipse.org/egit/updates</a> (Recommended)</li>
 <li>Helios Site: <a href="http://download.eclipse.org/releases/helios">http://download.eclipse.org/releases/helios</a></li>
 </ul>
 
 <h2>Bleeding Edge Builds</h2>
-<p>If you like to live on the bleeding edge, you can install JGit from this repository:</p>
+<p>If you like to live on the bleeding edge, you can install JGit from the EGit nightly repository:</p>
 <ul>
 <li><a href="http://download.eclipse.org/egit/updates-nightly">http://download.eclipse.org/egit/updates-nightly</a>.</li>
 </ul>
