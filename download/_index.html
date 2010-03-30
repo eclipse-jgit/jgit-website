@@ -1,11 +1,12 @@
-<h2>Direct Download</h2>
+<h2>Direct Download @VERSION@</h2>
 <ul>
-<li><a href="http://download.eclipse.org/jgit/maven/org/eclipse/jgit/org.eclipse.jgit/0.7.1/org.eclipse.jgit-0.7.1.jar">org.eclipse.jgit.jar</a> (Raw API library)</li>
-<li><a href="http://download.eclipse.org/jgit/maven/org/eclipse/jgit/org.eclipse.jgit.pgm/0.7.1/org.eclipse.jgit.pgm-0.7.1.sh">jgit.sh</a> (Self-contained command line executable)</li>
+<li><a href="http://download.eclipse.org/jgit/maven/org/eclipse/jgit/org.eclipse.jgit/@VERSION@/org.eclipse.jgit-@VERSION@.jar">org.eclipse.jgit.jar</a> (Raw API library)</li>
+<li><a href="http://download.eclipse.org/jgit/maven/org/eclipse/jgit/org.eclipse.jgit.pgm/@VERSION@/org.eclipse.jgit.pgm-@VERSION@.sh">jgit.sh</a> (Self-contained command line executable)</li>
 </ul>
 
 <h2>Maven Repository</h2>
-<p>JGit can be consumed in a Maven build:</p>
+<p>JGit can be consumed in a Maven build.  Multiple artifacts are available,
+depending on the application's requirements:</p>
 <pre>
   &lt;repositories&gt;
     &lt;repository&gt;
@@ -14,11 +15,39 @@
     &lt;/repository&gt;
   &lt;/repositories&gt;
 
+  &lt;!-- Core Library --&gt;
   &lt;dependencies&gt;
     &lt;dependency&gt;
       &lt;groupId&gt;org.eclipse.jgit&lt;/groupId&gt;
       &lt;artifactId&gt;org.eclipse.jgit&lt;/artifactId&gt;
-      &lt;version&gt;0.7.1&lt;/version&gt;
+      &lt;version&gt;@VERSION@&lt;/version&gt;
+    &lt;/dependency&gt;
+  &lt;/dependencies&gt;
+
+  &lt;!-- Smart HTTP Servlet --&gt;
+  &lt;dependencies&gt;
+    &lt;dependency&gt;
+      &lt;groupId&gt;org.eclipse.jgit&lt;/groupId&gt;
+      &lt;artifactId&gt;org.eclipse.jgit.http.server&lt;/artifactId&gt;
+      &lt;version&gt;@VERSION@&lt;/version&gt;
+    &lt;/dependency&gt;
+  &lt;/dependencies&gt;
+
+  &lt;!-- AWT UI Helpers --&gt;
+  &lt;dependencies&gt;
+    &lt;dependency&gt;
+      &lt;groupId&gt;org.eclipse.jgit&lt;/groupId&gt;
+      &lt;artifactId&gt;org.eclipse.jgit.ui&lt;/artifactId&gt;
+      &lt;version&gt;@VERSION@&lt;/version&gt;
+    &lt;/dependency&gt;
+  &lt;/dependencies&gt;
+
+  &lt;!-- JUnit Test Support --&gt;
+  &lt;dependencies&gt;
+    &lt;dependency&gt;
+      &lt;groupId&gt;org.eclipse.jgit&lt;/groupId&gt;
+      &lt;artifactId&gt;org.eclipse.jgit.junit&lt;/artifactId&gt;
+      &lt;version&gt;@VERSION@&lt;/version&gt;
     &lt;/dependency&gt;
   &lt;/dependencies&gt;
 </pre>
