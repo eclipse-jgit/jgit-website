@@ -1,6 +1,6 @@
 <?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
 	$pageTitle 		= "JGit - Download";
-	$version      = "2.2.0.201212191850-r";
+	$version      = "2.3.1.201302201838-r";
 
 	$html  = '<div id="midcolumn">';
 	$html .= file_get_contents('_index.html');
