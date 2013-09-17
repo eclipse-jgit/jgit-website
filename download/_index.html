@@ -1,8 +1,8 @@
 <h2>Direct Download @VERSION@</h2>
 <ul>
-<li><a href="http://download.eclipse.org/jgit/maven/org/eclipse/jgit/org.eclipse.jgit/@VERSION@/org.eclipse.jgit-@VERSION@.jar">org.eclipse.jgit.jar</a> (Raw API library)</li>
-<li><a href="http://download.eclipse.org/jgit/maven/org/eclipse/jgit/org.eclipse.jgit/@VERSION@/org.eclipse.jgit-@VERSION@-javadoc.jar">org.eclipse.jgit-javadoc.jar</a> (JavaDoc archive)</li>
-<li><a href="http://download.eclipse.org/jgit/maven/org/eclipse/jgit/org.eclipse.jgit.pgm/@VERSION@/org.eclipse.jgit.pgm-@VERSION@.sh">jgit.sh</a> (Self-contained command line executable)</li>
+<li><a href="@MAVEN_REPO@/org/eclipse/jgit/org.eclipse.jgit/@VERSION@/org.eclipse.jgit-@VERSION@.jar">org.eclipse.jgit.jar</a> (Raw API library)</li>
+<li><a href="@MAVEN_REPO@/org/eclipse/jgit/org.eclipse.jgit/@VERSION@/org.eclipse.jgit-@VERSION@-javadoc.jar">org.eclipse.jgit-javadoc.jar</a> (JavaDoc archive)</li>
+<li><a href="@MAVEN_REPO@/org/eclipse/jgit/org.eclipse.jgit.pgm/@VERSION@/org.eclipse.jgit.pgm-@VERSION@.sh">jgit.sh</a> (Self-contained command line executable)</li>
 <li><a href="http://download.eclipse.org/jgit/docs/jgit-@VERSION@/apidocs/index.html">org.eclipse.jgit JavaDoc</a> (online JavaDoc)</li>
 <li><a href="http://download.eclipse.org/jgit/docs/jgit-@VERSION@/api-changes/index.html">JGit API changes since 2.3</a> (online Clirr API changes report)</li>
 </ul>
@@ -17,7 +17,7 @@ depending on the application's requirements:</p>
   &lt;repositories&gt;
     &lt;repository&gt;
       &lt;id&gt;jgit-repository&lt;/id&gt;
-      &lt;url&gt;http://download.eclipse.org/jgit/maven&lt;/url&gt;
+      &lt;url&gt;@MAVEN_REPO@&lt;/url&gt;
     &lt;/repository&gt;
   &lt;/repositories&gt;
 
@@ -80,10 +80,11 @@ depending on the application's requirements:</p>
 <li>Kepler Site: <a href="http://download.eclipse.org/releases/kepler">http://download.eclipse.org/releases/kepler</a></li>
 </ul>
 
-<h2>Bleeding Edge Builds</h2>
-<p>If you like to live on the bleeding edge, you can install JGit from the EGit nightly repository:</p>
+<h2>Development Builds</h2>
+<p>If you like to use the latest development version, you can install JGit from the EGit nightly repository:</p>
 <ul>
-<li><a href="http://download.eclipse.org/egit/updates-nightly">http://download.eclipse.org/egit/updates-nightly</a>.</li>
+<li>development build (master branch): <a href="http://download.eclipse.org/egit/updates-nightly">http://download.eclipse.org/egit/updates-nightly</a>.</li>
+<li>maintenance build (latest stable branch): <a href="http://download.eclipse.org/egit/updates-stable-nightly">http://download.eclipse.org/egit/updates-stable-nightly</a>.</li>
 </ul>
 
 <p>You can also build JGit from scratch following our <a href="http://wiki.eclipse.org/EGit/Contributor_Guide#Builds">contributor guide</a>.</p>
