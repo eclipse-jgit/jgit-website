@@ -1,7 +1,8 @@
 <?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
+	include '../version.php';
+
 	$pageTitle 		= "JGit - Download";
 	$maven_repo		= "https://repo.eclipse.org/content/groups/releases/";
-	$version      = "3.5.0.201409260305-r";
 
 	$html  = '<div id="midcolumn">';
 	$html .= file_get_contents('_index.html');
