@@ -9,6 +9,7 @@
 	$html .= "</div>";
 
 	$html = preg_replace('/@VERSION@/', $version, $html);
+	$html = preg_replace('/@API_VERSION@/', $api_version, $html);
 	$html = preg_replace('/@MAVEN_REPO@/', $maven_repo, $html);
 
 	# Generate the web page

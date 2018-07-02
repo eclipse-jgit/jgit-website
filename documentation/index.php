@@ -8,6 +8,7 @@
 	$html .= "</div>";
 
 	$html = preg_replace('/@VERSION@/', $version, $html);
+	$html = preg_replace('/@API_VERSION@/', $api_version, $html);
 
 	# Generate the web page
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
