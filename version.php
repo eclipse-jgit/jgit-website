@@ -1,4 +1,4 @@
 <?php
-	$version = "5.12.0.202106070339-r";
-	$api_version="5.12.0.202106070339-r"; // For API docs and CLIRR reports
+	$version = "5.13.0.202109080827-r";
+	$api_version="5.13.0.202109080827-r"; // For API docs and CLIRR reports
 ?>
